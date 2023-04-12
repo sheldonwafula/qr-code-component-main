@@ -1,0 +1,36 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.QR-code{
+    background-color: rgb(186, 220, 236);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.code{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 400px;
+    background-color: aliceblue;
+    box-sizing: border-box;
+    border-radius: 10px;
+    margin: 24px;
+}
+.code img{
+    width: auto;
+    height:auto ;
+    margin: 10px;
+    border-radius: 10px;
+}
+.code h4{
+    margin:10px 24px;
+    text-align: center;
+}
+.code p{
+    margin: 0 24px;
+    text-align: center;
+    color: rgb(89, 92, 94);
+}
